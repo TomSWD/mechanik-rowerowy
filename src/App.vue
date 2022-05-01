@@ -1,35 +1,32 @@
 <template>
-  <!-- <NavBar /> -->
   <MenuSection />
   <MainSection />
   <PriceList />
   <AboutSection />
   <ContactSection />
-  <!-- <FooterSection /> -->
+  <FooterSection />
 </template>
 
 <script>
 import "@/assets/styles/reset.css";
 import "@/assets/styles/global.css";
 
-// import NavBar from "./components/NavBar.vue";
 import MenuSection from "./components/MenuSection.vue";
 import MainSection from "./components/MainSection.vue";
 import PriceList from "./components/PriceList.vue";
 import AboutSection from "./components/AboutSection.vue";
 import ContactSection from "./components/ContactSection.vue";
-// import FooterSection from "./components/FooterSection.vue";
+import FooterSection from "./components/FooterSection.vue";
 
 export default {
   name: "App",
   components: {
-    // NavBar,
     MenuSection,
     MainSection,
     PriceList,
     AboutSection,
     ContactSection,
-    // FooterSection,
+    FooterSection,
   },
 };
 </script>

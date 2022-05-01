@@ -1,64 +1,69 @@
 <template>
   <div class="footer">
     <div class="footer__container container">
+      <img
+        class="footer__logo"
+        src="@/assets/img/mechanik-logo.jpeg/"
+        loading="lazy"
+      />
       <div class="footer__cr">© 2022 Endurophine</div>
-      <div class="footer__social-container">
+      <div class="footer__social">
         <a
-          class="facebook-icon"
+          class="facebook-icon icon"
           href="https://www.facebook.com/rowerowymechanik"
           target="__blank"
         >
           <svg
-            width="9"
-            height="16"
-            viewBox="0 0 9 16"
-            fill=""
+            width="35"
+            height="35"
+            viewBox="0 0 48 48"
+            fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
+            <circle cx="24" cy="24" r="24" fill="#F6F7FB" />
             <path
-              d="M5.49859 16V8.70218H7.99501L8.36954 5.85725H5.49859V4.04118C5.49859 3.21776 5.73076 2.65661 6.93596 2.65661L8.47059 2.65599V0.111384C8.2052 0.0775563 7.2942 0 6.23389 0C4.01979 0 2.50399 1.32557 2.50399 3.75942V5.85725H0V8.70218H2.50399V16H5.49859Z"
-              fill="#010002"
+              d="M30 14H27C25.6739 14 24.4021 14.5268 23.4645 15.4645C22.5268 16.4021 22 17.6739 22 19V22H19V26H22V34H26V26H29L30 22H26V19C26 18.7348 26.1054 18.4804 26.2929 18.2929C26.4804 18.1054 26.7348 18 27 18H30V14Z"
+              stroke="black"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
             />
           </svg>
         </a>
         <a
-          class="instagram-icon"
+          class="instagram-icon icon"
           href="https://www.instagram.com/mechanik_rowerowy/"
           target="__blank"
         >
           <svg
-            class="instagram"
-            width="22"
-            height="22"
-            viewBox="0 0 22 22"
+            width="35"
+            height="35"
+            viewBox="0 0 48 48"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
+            <circle cx="24" cy="24" r="24" fill="#F6F7FB" />
             <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              d="M15.0325 2H6.96724C4.22831 2 2 4.22841 2 6.96735V15.0327C2 17.7717 4.22831 20 6.96724 20H15.0325C17.7717 20 20 17.7716 20 15.0327V6.96735C20.0001 4.22841 17.7717 2 15.0325 2ZM18.4031 15.0326C18.4031 16.8911 16.8911 18.403 15.0326 18.403H6.96724C5.10892 18.4031 3.59705 16.8911 3.59705 15.0326V6.96735C3.59705 5.10903 5.10892 3.59705 6.96724 3.59705H15.0325C16.891 3.59705 18.403 5.10903 18.403 6.96735V15.0326H18.4031ZM6.28571 11.0001C6.28571 8.40055 8.4005 6.28571 11 6.28571C13.5995 6.28571 15.7143 8.40055 15.7143 11.0001C15.7143 13.5996 13.5995 15.7143 11 15.7143C8.4005 15.7143 6.28571 13.5996 6.28571 11.0001ZM11 14.0909C9.29568 14.0909 7.90898 12.7044 7.90898 11C7.90898 9.29553 9.29557 7.90891 11 7.90891C12.7044 7.90891 14.091 9.29553 14.091 11C14.091 12.7044 12.7043 14.0909 11 14.0909Z"
-              fill="black"
+              d="M28.5 15H19.5C17.0147 15 15 17.0147 15 19.5V28.5C15 30.9853 17.0147 33 19.5 33H28.5C30.9853 33 33 30.9853 33 28.5V19.5C33 17.0147 30.9853 15 28.5 15Z"
+              stroke="black"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
             />
-            <mask
-              id="mask0_2_645"
-              style="mask-type: alpha"
-              maskUnits="userSpaceOnUse"
-              x="2"
-              y="2"
-              width="18"
-              height="18"
-            >
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M15.0325 2H6.96724C4.22831 2 2 4.22841 2 6.96735V15.0327C2 17.7717 4.22831 20 6.96724 20H15.0325C17.7717 20 20 17.7716 20 15.0327V6.96735C20.0001 4.22841 17.7717 2 15.0325 2ZM18.4031 15.0326C18.4031 16.8911 16.8911 18.403 15.0326 18.403H6.96724C5.10892 18.4031 3.59705 16.8911 3.59705 15.0326V6.96735C3.59705 5.10903 5.10892 3.59705 6.96724 3.59705H15.0325C16.891 3.59705 18.403 5.10903 18.403 6.96735V15.0326H18.4031ZM6.28571 11.0001C6.28571 8.40055 8.4005 6.28571 11 6.28571C13.5995 6.28571 15.7143 8.40055 15.7143 11.0001C15.7143 13.5996 13.5995 15.7143 11 15.7143C8.4005 15.7143 6.28571 13.5996 6.28571 11.0001ZM11 14.0909C9.29568 14.0909 7.90898 12.7044 7.90898 11C7.90898 9.29553 9.29557 7.90891 11 7.90891C12.7044 7.90891 14.091 9.29553 14.091 11C14.091 12.7044 12.7043 14.0909 11 14.0909Z"
-                fill="white"
-              />
-            </mask>
-            <g mask="url(#mask0_2_645)">
-              <rect width="22" height="22" fill="#fff" />
-            </g>
+            <path
+              d="M27.6 23.4325C27.7111 24.1816 27.5832 24.9465 27.2344 25.6187C26.8857 26.2908 26.3339 26.8358 25.6575 27.1762C24.9811 27.5167 24.2146 27.6352 23.467 27.5149C22.7194 27.3946 22.0288 27.0416 21.4934 26.5062C20.958 25.9708 20.605 25.2801 20.4847 24.5325C20.3644 23.7849 20.4829 23.0184 20.8233 22.3421C21.1638 21.6657 21.7088 21.1139 22.3809 20.7652C23.053 20.4164 23.818 20.2885 24.567 20.3995C25.3311 20.5128 26.0384 20.8689 26.5846 21.415C27.1307 21.9612 27.4867 22.6685 27.6 23.4325Z"
+              stroke="black"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M28.9502 19.0503H28.9584"
+              stroke="black"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
           </svg>
         </a>
       </div>
@@ -75,15 +80,26 @@ export default {
 <style scoped>
 .footer__container {
   justify-content: space-between;
+  align-items: center;
   margin-top: 40px;
+}
+.footer__logo {
+  width: 70px;
 }
 .footer__cr {
   font-size: 10px;
 }
-.footer__social-container {
+.footer__social {
   display: flex;
+  justify-content: space-between;
+  width: 80px;
 }
-.instagram {
-  align-self: center;
+.icon {
+  width: 50%;
+}
+@media (max-width: 975px) {
+  .footer__logo {
+    display: none;
+  }
 }
 </style>

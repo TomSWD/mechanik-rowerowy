@@ -129,6 +129,9 @@ export default {
   align-items: center;
   justify-content: center;
   gap: 10px;
+  /* display: flex;
+  justify-content: space-between;
+  width: 75px; */
 }
 @media (max-width: 1240px) {
   .menu {

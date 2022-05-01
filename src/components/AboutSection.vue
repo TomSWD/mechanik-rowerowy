@@ -17,14 +17,14 @@
         <h5>
           Ostatnim miejscem, gdy jeszcze mieszkałem w Krakowie, w którym
           pracowałem był sklep i serwis
-          <a class="about-link" href="https://wertykal.com" target="_blank">
+          <!-- <a class="about-link" href="https://wertykal.com" target="_blank">
             <img
               class="wertical-logo"
               src="@/assets/img/logo.png/"
               loading="lazy"
-            />
-            Wertykal
-          </a>
+            /> -->
+          Wertykal
+          <!-- </a> -->
           w podkrakowskim Zabierzowie. Dzięki pracy w Wertykalu udało mi się
           uczestniczyć w szkoleniach z komponentów rowerowych marki Campagnolo
           oraz Fulcrum w siedzibie firmy Campagnolo we Włoszech. Przez okres,
