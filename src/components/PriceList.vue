@@ -83,6 +83,7 @@ export default {
   .price__right {
     width: 100%;
     height: auto;
+    gap: 20px;
   }
   .price__btn {
     width: 100%;
@@ -92,7 +93,7 @@ export default {
   }
   .price__pic-resp {
     display: block;
-    padding-top: 5%;
+    padding-top: 50px;
   }
 }
 </style>

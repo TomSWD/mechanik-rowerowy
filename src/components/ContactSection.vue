@@ -119,7 +119,7 @@ export default {
     font-size: 14px;
   }
   .map {
-    padding-top: 50px;
+    padding-top: 40px;
   }
 }
 </style>

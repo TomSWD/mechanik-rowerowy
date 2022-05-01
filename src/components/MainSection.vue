@@ -51,7 +51,12 @@ export default {
   .main__container {
     flex-direction: column;
     height: auto;
-    padding-bottom: 5%;
+    padding-bottom: 10%;
+    padding-top: 10%;
+  }
+  .main__logo {
+    width: 100%;
+    padding-top: 30px;
   }
   .main__pic {
     display: none;
