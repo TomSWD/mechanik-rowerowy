@@ -1,26 +1,39 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <!-- <NavBar /> -->
+  <MenuSection />
+  <MainSection />
+  <PriceList />
+  <AboutSection />
+  <ContactSection />
+  <!-- <FooterSection /> -->
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import "@/assets/styles/reset.css";
+import "@/assets/styles/global.css";
+
+// import NavBar from "./components/NavBar.vue";
+import MenuSection from "./components/MenuSection.vue";
+import MainSection from "./components/MainSection.vue";
+import PriceList from "./components/PriceList.vue";
+import AboutSection from "./components/AboutSection.vue";
+import ContactSection from "./components/ContactSection.vue";
+// import FooterSection from "./components/FooterSection.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    // NavBar,
+    MenuSection,
+    MainSection,
+    PriceList,
+    AboutSection,
+    ContactSection,
+    // FooterSection,
+  },
+};
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap");
 </style>
