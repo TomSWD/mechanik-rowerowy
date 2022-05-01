@@ -17,7 +17,12 @@
           Skontaktuj się ze mną w najwygodniejszy dla Ciebie sposób, aby omówić
           szczegóły (mailowo, napisz na Facebook’u lub zadzwoń).
         </h5>
-        <a class="price__btn btn" href="#">OTWORZ CENNIK</a>
+        <a
+          class="price__btn btn"
+          href="https://drive.google.com/file/d/1yaVELXHC70PsLHzW9J6-OFshlksYF_u9/view?usp=sharing"
+          target="_blank"
+          >OTWORZ CENNIK</a
+        >
       </div>
       <img
         class="price__pic-resp"

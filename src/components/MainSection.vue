@@ -35,6 +35,10 @@ export default {
 .main__content {
   margin: auto;
 }
+.main__title,
+.main__txt {
+  text-transform: uppercase;
+}
 .main__logo {
   width: 70%;
   padding-top: 70px;

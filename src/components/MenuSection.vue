@@ -131,6 +131,9 @@ export default {
   gap: 10px;
 }
 @media (max-width: 1240px) {
+  .menu {
+    position: static;
+  }
   .menu__links {
     display: none;
   }
