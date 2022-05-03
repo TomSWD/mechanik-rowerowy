@@ -28,7 +28,6 @@ export default {
 <style scoped>
 .main__container {
   flex-direction: row;
-  text-align: center;
   height: 100vh;
   padding-top: 5%;
 }

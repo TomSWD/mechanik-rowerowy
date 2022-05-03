@@ -1,11 +1,13 @@
 <template>
   <div class="footer">
     <div class="footer__container container">
-      <img
-        class="footer__logo"
-        src="@/assets/img/mechanik-logo.jpeg/"
-        loading="lazy"
-      />
+      <a href="#">
+        <img
+          class="footer__logo"
+          src="@/assets/img/mechanik-logo.jpeg/"
+          loading="lazy"
+        />
+      </a>
       <div class="footer__cr">© 2022 Endurophine</div>
       <div class="footer__social">
         <a
@@ -80,7 +82,6 @@ export default {
 <style scoped>
 .footer__container {
   justify-content: space-between;
-  align-items: center;
   margin-top: 40px;
 }
 .footer__logo {

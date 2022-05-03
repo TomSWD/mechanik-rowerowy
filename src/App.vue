@@ -3,6 +3,7 @@
   <MainSection />
   <PriceList />
   <AboutSection />
+  <CooperationSection />
   <ContactSection />
   <FooterSection />
 </template>
@@ -15,6 +16,7 @@ import MenuSection from "./components/MenuSection.vue";
 import MainSection from "./components/MainSection.vue";
 import PriceList from "./components/PriceList.vue";
 import AboutSection from "./components/AboutSection.vue";
+import CooperationSection from "./components/CooperationSection.vue";
 import ContactSection from "./components/ContactSection.vue";
 import FooterSection from "./components/FooterSection.vue";
 
@@ -25,6 +27,7 @@ export default {
     MainSection,
     PriceList,
     AboutSection,
+    CooperationSection,
     ContactSection,
     FooterSection,
   },

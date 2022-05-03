@@ -60,7 +60,6 @@ export default {
   flex-direction: column;
   width: 50%;
   height: 100vh;
-  text-align: center;
   justify-content: center;
 }
 .contact__txt {

@@ -103,7 +103,6 @@ export default {
   display: flex;
   max-width: 50%;
   flex-direction: column;
-  text-align: center;
   gap: 30px;
   margin: 20px auto 20px;
 }

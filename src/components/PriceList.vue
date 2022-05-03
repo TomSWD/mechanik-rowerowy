@@ -47,7 +47,6 @@ export default {
   gap: 70px;
   width: 50%;
   height: 100vh;
-  text-align: center;
   justify-content: center;
 }
 .price__pic {
