@@ -50,8 +50,8 @@ export default {
   justify-content: center;
 }
 .price__pic {
-  width: 80%;
-  margin: 0px auto;
+  width: 90%;
+  margin-right: auto;
 }
 .price__pic-resp {
   display: none;
@@ -61,11 +61,13 @@ export default {
   justify-content: center;
   align-items: center;
   font-weight: 700;
-  background-color: #212121;
-  width: 50%;
-  height: 50px;
-  font-size: 20px;
-  border-radius: 28px;
+  /* background-color: #4a4a4a; */
+  background-color: #d94100;
+  width: 350px;
+  height: 70px;
+  font-size: 25px;
+  letter-spacing: 3px;
+  border-radius: 25px;
   margin: 0 auto;
 }
 .price__btn:hover {

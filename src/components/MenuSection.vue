@@ -17,9 +17,9 @@
       </a>
       <div class="menu__links">
         <a class="menu__link" href="#price">CENNIK / MECHANIK U CIEBIE</a>
-        <a class="menu__link" href="#about">O MNIE</a>
+        <a class="menu__link" href="#cooperation">WSPOŁPRACA</a>
         <a class="menu__link" href="#">MOJE MARKI</a>
-        <a class="menu__link" href="#">WSPOŁPRACA</a>
+        <a class="menu__link" href="#about">O MNIE</a>
         <a class="menu__link" href="#contact">KONTAKT</a>
         <a></a>
       </div>
@@ -115,7 +115,7 @@ export default {
 }
 .menu__link {
   padding: 10px 10px;
-  border-radius: 28px;
+  border-radius: 20px;
   font-weight: 400;
 }
 .menu__link:hover {

@@ -2,8 +2,9 @@
   <MenuSection />
   <MainSection />
   <PriceList />
-  <AboutSection />
   <CooperationSection />
+  <BrandsSection />
+  <AboutSection />
   <ContactSection />
   <FooterSection />
 </template>
@@ -15,8 +16,9 @@ import "@/assets/styles/global.css";
 import MenuSection from "./components/MenuSection.vue";
 import MainSection from "./components/MainSection.vue";
 import PriceList from "./components/PriceList.vue";
-import AboutSection from "./components/AboutSection.vue";
 import CooperationSection from "./components/CooperationSection.vue";
+import BrandsSection from "./components/BrandsSection.vue";
+import AboutSection from "./components/AboutSection.vue";
 import ContactSection from "./components/ContactSection.vue";
 import FooterSection from "./components/FooterSection.vue";
 
@@ -26,8 +28,9 @@ export default {
     MenuSection,
     MainSection,
     PriceList,
-    AboutSection,
     CooperationSection,
+    BrandsSection,
+    AboutSection,
     ContactSection,
     FooterSection,
   },

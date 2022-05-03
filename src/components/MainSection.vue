@@ -2,14 +2,13 @@
   <div class="main__container container">
     <div id="main" class="main__content">
       <h3 class="main__title">Mobilny serwis i mechanik rowerowy</h3>
-      <h5 class="main__txt">
-        z dojazdem do klienta w Krośnie i na terenie województwa Podkarpackiego
-      </h5>
-      <img
+      <br />
+      <h5 class="main__txt">Mechanik rowerowy z serwisem u Ciebie</h5>
+      <!-- <img
         class="main__logo"
         src="@/assets/img/mechanik-logo.jpeg/"
         loading="lazy"
-      />
+      /> -->
     </div>
     <img
       class="main__pic"
@@ -58,7 +57,7 @@ export default {
     padding-top: 30px;
   }
   .main__pic {
-    display: none;
+    width: 100%;
   }
 }
 </style>

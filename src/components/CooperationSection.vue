@@ -1,39 +1,41 @@
 <template>
   <div class="cooperation">
-    <div class="cooperation__container container">
-      <div class="cooperation__left">
-        <h5>Jestem otwarty na propozycję współpracy</h5>
-        <br />
-        <h5>
-          Obsługa serwisowa imprez <br />
-          Wyjazdy jako samochód serwisowy <br />
-          Mechanik na godziny u Ciebie w serwisie
-        </h5>
-        <br />
-        <h5>
-          Masz jakąś propozycję? <br />
-          Napisz lub zadzwoń na pewno się dogadamy!
-        </h5>
+    <div id="cooperation" class="cooperation__container container">
+      <div class="cooperation__txt">
+        <div class="cooperation__txt-left">
+          <h5>Jestem otwarty na propozycję współpracy:</h5>
+          <h5>
+            - Obsługa serwisowa imprez <br />
+            - Wyjazdy jako samochód serwisowy <br />
+            - Mechanik na godziny u Ciebie w serwisie
+          </h5>
+        </div>
+        <div class="cooperation__txt-right">
+          <h5>
+            Masz jakąś propozycję? <br />
+            Napisz lub zadzwoń na pewno się dogadamy!
+          </h5>
+        </div>
       </div>
-      <div class="cooperation__right">
+      <div class="cooperation__logos">
         <div class="cooperation__cube-1">
-          <a href="https://www.facebook.com/emtbpodkarpacie" target="_blank">
+          <a href="https://www.facebook.com/Komonbikes/" target="_blank">
             <img
-              class="cooperation__pic-1"
-              src="@/assets/img/endu.png/"
+              class="cooperation__pic"
+              src="@/assets/img/komon.jpeg/"
               loading="lazy"
             />
           </a>
-          <a href="https://www.facebook.com/emtbpodkarpacie" target="_blank">
+          <a href="https://www.facebook.com/rbikesklep/" target="_blank">
             <img
-              class="cooperation__pic-2"
-              src="@/assets/img/komon.jpeg/"
+              class="cooperation__pic"
+              src="@/assets/img/rbike.png/"
               loading="lazy"
             />
           </a>
           <a href="https://bikeserviceapp.pl/" target="_blank">
             <img
-              class="cooperation__pic-3"
+              class="cooperation__pic"
               src="@/assets/img/bsa.png/"
               loading="lazy"
             />
@@ -42,15 +44,28 @@
         <div class="cooperation__cube-2">
           <a href="https://sklep.token-polska.pl/" target="_blank">
             <img
-              class="cooperation__pic-4"
+              class="cooperation__pic"
               src="@/assets/img/Token.jpeg/"
               loading="lazy"
             />
           </a>
-          <a href="https://www.facebook.com/rbikesklep/" target="_blank">
+
+          <a
+            href="https://www.facebook.com/teammtbmandslostarkkrosno"
+            target="_blank"
+          >
             <img
-              class="cooperation__pic-4"
-              src="@/assets/img/rbike.png/"
+              class="cooperation__pic"
+              src="@/assets/img/lo-stark-mtb.jpeg/"
+              loading="lazy"
+            />
+          </a>
+        </div>
+        <div class="cooperation__cube-3">
+          <a href="https://www.facebook.com/emtbpodkarpacie" target="_blank">
+            <img
+              class="cooperation__pic"
+              src="@/assets/img/endu.png/"
               loading="lazy"
             />
           </a>
@@ -59,8 +74,8 @@
             target="_blank"
           >
             <img
-              class="cooperation__pic-4"
-              src="@/assets/img/lo-stark-mtb.jpeg/"
+              class="cooperation__pic macpol-pic"
+              src="@/assets/img/logoMACpol.png/"
               loading="lazy"
             />
           </a>
@@ -77,27 +92,39 @@ export default {
 </script>
 
 <style scoped>
-.cooperation__left,
-.cooperation__right {
-  display: flex;
+.cooperation__container {
   flex-direction: column;
-  width: 50%;
   height: 100vh;
   justify-content: center;
 }
-/* .cooperation__right {
-  height: 100vh;
-  width: 50%;
+.cooperation__txt {
   display: flex;
-  justify-content: space-between;
   flex-direction: row;
-} */
-.cooperation__cube-1 {
-  display: flex;
-  flex-direction: column;
-  max-width: 25%;
+  gap: 30px;
+  padding-bottom: 70px;
 }
-.cooperation__cube-2 {
-  max-width: 70%;
+.cooperation__txt-left,
+.cooperation__txt-right {
+  width: 50%;
+}
+.cooperation__cube-1,
+.cooperation__cube-2,
+.cooperation__cube-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.cooperation__pic {
+  max-height: 150px;
+}
+@media (max-width: 975px) {
+  .cooperation__txt {
+    flex-direction: column;
+    padding-bottom: 50px;
+  }
+  cooperation__txt-left,
+  .cooperation__txt-right {
+    width: 100%;
+  }
 }
 </style>
