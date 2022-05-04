@@ -95,12 +95,13 @@ export default {
   flex-direction: column;
   height: 100vh;
   justify-content: center;
+  padding-top: 5%;
 }
 .cooperation__txt {
   display: flex;
   flex-direction: row;
-  gap: 30px;
-  padding-bottom: 2%;
+  gap: 30;
+  padding-bottom: 5%;
 }
 .cooperation__txt-left,
 .cooperation__txt-right {
