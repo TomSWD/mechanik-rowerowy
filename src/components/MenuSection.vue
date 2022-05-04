@@ -96,6 +96,7 @@ export default {
 <style scoped>
 .menu {
   position: fixed;
+  z-index: 1;
   margin: 20px auto 0px;
   width: 100%;
   background: #000;

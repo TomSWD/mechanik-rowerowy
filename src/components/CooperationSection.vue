@@ -100,7 +100,7 @@ export default {
   display: flex;
   flex-direction: row;
   gap: 30px;
-  padding-bottom: 70px;
+  padding-bottom: 2%;
 }
 .cooperation__txt-left,
 .cooperation__txt-right {
