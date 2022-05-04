@@ -18,7 +18,7 @@
       <div class="menu__links">
         <a class="menu__link" href="#price">CENNIK / MECHANIK U CIEBIE</a>
         <a class="menu__link" href="#cooperation">WSPOŁPRACA</a>
-        <a class="menu__link" href="#">MOJE MARKI</a>
+        <a class="menu__link" href="#brand">MOJE MARKI</a>
         <a class="menu__link" href="#about">O MNIE</a>
         <a class="menu__link" href="#contact">KONTAKT</a>
         <a></a>

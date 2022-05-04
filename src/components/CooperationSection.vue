@@ -49,7 +49,6 @@
               loading="lazy"
             />
           </a>
-
           <a
             href="https://www.facebook.com/teammtbmandslostarkkrosno"
             target="_blank"
