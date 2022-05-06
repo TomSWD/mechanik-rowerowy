@@ -16,8 +16,8 @@
         </svg>
       </a>
       <div class="menu__links">
-        <a class="menu__link" href="#price">CENNIK / MECHANIK U CIEBIE</a>
-        <a class="menu__link" href="#cooperation">WSPOŁPRACA</a>
+        <a class="menu__link" href="#price">CENNIK</a>
+        <a class="menu__link" href="#cooperation">WSPÓŁPRACA</a>
         <a class="menu__link" href="#brand">MOJE MARKI</a>
         <a class="menu__link" href="#about">O MNIE</a>
         <a class="menu__link" href="#contact">KONTAKT</a>
@@ -97,7 +97,8 @@ export default {
 .menu {
   position: fixed;
   z-index: 1;
-  margin: 20px auto 0px;
+  margin: 0 auto;
+  padding-top: 10px;
   width: 100%;
   background: #000;
 }

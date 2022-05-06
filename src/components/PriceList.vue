@@ -21,7 +21,7 @@
           class="price__btn btn"
           href="https://drive.google.com/file/d/1yaVELXHC70PsLHzW9J6-OFshlksYF_u9/view?usp=sharing"
           target="_blank"
-          >OTWORZ CENNIK</a
+          >OTWÓRZ CENNIK</a
         >
       </div>
       <img
@@ -61,9 +61,8 @@ export default {
   justify-content: center;
   align-items: center;
   font-weight: 700;
-  /* background-color: #4a4a4a; */
   background-color: #d94100;
-  width: 350px;
+  width: 330px;
   height: 70px;
   font-size: 25px;
   letter-spacing: 3px;
@@ -88,6 +87,7 @@ export default {
   }
   .price__btn {
     width: 100%;
+    margin: 40px auto 50px;
   }
   .price__pic {
     display: none;
@@ -95,6 +95,11 @@ export default {
   .price__pic-resp {
     display: block;
     padding-top: 50px;
+  }
+}
+@media (max-width: 465px) {
+  .price__btn {
+    margin: 30px auto 40px;
   }
 }
 </style>

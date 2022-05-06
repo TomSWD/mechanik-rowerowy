@@ -36,6 +36,18 @@
           />
         </a>
       </div>
+      <div class="brand__cube-3">
+        <a href="https://sklep.token-polska.pl/" target="_blank">
+          <img
+            class="brand__pic"
+            src="@/assets/img/Garbaruk.jpeg/"
+            loading="lazy"
+          />
+        </a>
+        <a href="https://sklep.token-polska.pl/" target="_blank">
+          <img class="brand__pic" src="@/assets/img/sram.png/" loading="lazy" />
+        </a>
+      </div>
     </div>
   </div>
 </template>
@@ -53,7 +65,8 @@ export default {
   justify-content: center;
 }
 .brand__cube-1,
-.brand__cube-2 {
+.brand__cube-2,
+.brand__cube-3 {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;

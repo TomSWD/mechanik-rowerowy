@@ -2,6 +2,11 @@
   <div class="contact">
     <div id="contact" class="contact__container container">
       <div class="contact__left">
+        <img
+          class="contact__logo"
+          src="@/assets/img/mechanik-logo.jpeg/"
+          loading="lazy"
+        />
         <div class="contact__txt">
           <h5 class="phone">
             Telefon: <a href="tel:+48609595205">+48 609 595 205</a>
@@ -25,11 +30,6 @@
             >
           </h5>
         </div>
-        <img
-          class="contact__logo"
-          src="@/assets/img/mechanik-logo.jpeg/"
-          loading="lazy"
-        />
       </div>
       <div class="contact__right">
         <iframe
@@ -61,6 +61,7 @@ export default {
   width: 50%;
   height: 100vh;
   justify-content: center;
+  margin-top: 5%;
 }
 .contact__txt {
   display: flex;
@@ -70,7 +71,7 @@ export default {
 .contact__logo {
   width: 80%;
   margin-right: auto;
-  padding: 70px 0px 10px 0px;
+  padding: 0px 0px 20px 0px;
 }
 .map {
   max-width: 100%;
@@ -78,7 +79,7 @@ export default {
 }
 @media (max-width: 1240px) {
   .contact__container {
-    flex-direction: column;
+    margin-top: 40px;
   }
   .contact__left,
   .contact__right {
@@ -86,6 +87,7 @@ export default {
     height: auto;
   }
   .contact__left {
+    display: block;
     flex-direction: row;
   }
   .contact__txt,
@@ -96,15 +98,17 @@ export default {
     font-size: 16px;
   }
   .contact__logo {
-    width: 50%;
     padding-bottom: 0px;
   }
   .map {
-    padding-top: 70px;
+    padding-top: 20px;
     width: 100vw;
   }
 }
 @media (max-width: 975px) {
+  .contact__container {
+    flex-direction: column;
+  }
   .contact__left {
     flex-direction: column;
     padding-top: 40px;

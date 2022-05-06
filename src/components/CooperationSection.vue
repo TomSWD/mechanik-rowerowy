@@ -68,16 +68,6 @@
               loading="lazy"
             />
           </a>
-          <a
-            href="https://www.facebook.com/teammtbmandslostarkkrosno"
-            target="_blank"
-          >
-            <img
-              class="cooperation__pic macpol-pic"
-              src="@/assets/img/logoMACpol.png/"
-              loading="lazy"
-            />
-          </a>
         </div>
       </div>
     </div>
@@ -95,7 +85,7 @@ export default {
   flex-direction: column;
   height: 100vh;
   justify-content: center;
-  padding-top: 5%;
+  margin-top: 5%;
 }
 .cooperation__txt {
   display: flex;
@@ -122,7 +112,7 @@ export default {
     flex-direction: column;
     padding-bottom: 50px;
   }
-  cooperation__txt-left,
+  .cooperation__txt-left,
   .cooperation__txt-right {
     width: 100%;
   }

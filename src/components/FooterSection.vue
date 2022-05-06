@@ -1,12 +1,8 @@
 <template>
   <div class="footer">
     <div class="footer__container container">
-      <a href="#">
-        <img
-          class="footer__logo"
-          src="@/assets/img/mechanik-logo.jpeg/"
-          loading="lazy"
-        />
+      <a class="footer__logo" href="#">
+        <img src="@/assets/img/mechanik-logo.jpeg/" loading="lazy" />
       </a>
       <div class="footer__cr">© 2022 Endurophine</div>
       <div class="footer__social">
@@ -99,8 +95,8 @@ export default {
   width: 50%;
 }
 @media (max-width: 975px) {
-  .footer__logo {
-    display: none;
+  .footer__container {
+    margin-top: 60px;
   }
 }
 </style>
