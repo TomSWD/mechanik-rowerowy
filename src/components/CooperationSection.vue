@@ -22,30 +22,29 @@
           <a href="https://www.facebook.com/Komonbikes/" target="_blank">
             <img
               class="cooperation__pic"
-              src="@/assets/img/komon.jpeg/"
+              src="@/assets/img/komon.png/"
               loading="lazy"
-            />
-          </a>
+          /></a>
           <a href="https://www.facebook.com/rbikesklep/" target="_blank">
             <img
               class="cooperation__pic"
-              src="@/assets/img/rbike.png/"
+              src="@/assets/img/10.rbike.png/"
               loading="lazy"
             />
           </a>
           <a href="https://bikeserviceapp.pl/" target="_blank">
             <img
               class="cooperation__pic"
-              src="@/assets/img/bsa.png/"
+              src="@/assets/img/bikeservice.png/"
               loading="lazy"
             />
           </a>
         </div>
         <div class="cooperation__cube-2">
-          <a href="https://sklep.token-polska.pl/" target="_blank">
+          <a href="https://www.facebook.com/emtbpodkarpacie/" target="_blank">
             <img
               class="cooperation__pic"
-              src="@/assets/img/Token.jpeg/"
+              src="@/assets/img/enduro.png/"
               loading="lazy"
             />
           </a>
@@ -55,16 +54,7 @@
           >
             <img
               class="cooperation__pic"
-              src="@/assets/img/lo-stark-mtb.jpeg/"
-              loading="lazy"
-            />
-          </a>
-        </div>
-        <div class="cooperation__cube-3">
-          <a href="https://www.facebook.com/emtbpodkarpacie" target="_blank">
-            <img
-              class="cooperation__pic"
-              src="@/assets/img/endu.png/"
+              src="@/assets/img/team.png/"
               loading="lazy"
             />
           </a>
@@ -97,15 +87,19 @@ export default {
 .cooperation__txt-right {
   width: 50%;
 }
+.cooperation__logos {
+  margin-top: 8%;
+  height: 25%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
 .cooperation__cube-1,
-.cooperation__cube-2,
-.cooperation__cube-3 {
+.cooperation__cube-2 {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-}
-.cooperation__pic {
-  max-height: 150px;
+  height: 10%;
 }
 @media (max-width: 975px) {
   .cooperation__txt {

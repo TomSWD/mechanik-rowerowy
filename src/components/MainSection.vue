@@ -3,11 +3,6 @@
     <div id="main" class="main__content">
       <h3 class="main__title">Mobilny serwis i mechanik rowerowy</h3>
       <h5 class="main__txt">Mechanik rowerowy z serwisem u Ciebie</h5>
-      <!-- <img
-        class="main__logo"
-        src="@/assets/img/mechanik-logo.jpeg/"
-        loading="lazy"
-      /> -->
     </div>
     <img
       class="main__pic"
@@ -40,13 +35,10 @@ export default {
   padding-top: 5%;
   padding-bottom: 5%;
 }
-/* .main__logo {
-  width: 70%;
-  padding-top: 70px;
-} */
 .main__pic {
   margin: auto;
-  width: 50%;
+  width: 80%;
+  transform: translateX(5%);
 }
 @media (max-width: 975px) {
   .main__container {
@@ -55,12 +47,9 @@ export default {
     padding-bottom: 20%;
     padding-top: 15%;
   }
-  /* .main__logo {
-    width: 100%;
-    padding-top: 30px;
-  } */
   .main__pic {
     width: 100%;
+    transform: none;
   }
 }
 @media (max-width: 465px) {

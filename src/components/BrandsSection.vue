@@ -1,18 +1,28 @@
 <template>
   <div class="brand">
     <div id="brand" class="brand__container container">
+      <h5 class="brand__title">
+        Swój serwis opieram na sprawdzonych markach z najwyszej światowej półki:
+      </h5>
       <div class="brand__cube-1">
-        <a href="https://sklep.token-polska.pl/" target="_blank">
+        <a href="https://ebcbrakes.pl/pl" target="_blank">
           <img class="brand__pic" src="@/assets/img/ebc.png/" loading="lazy" />
         </a>
-        <a href="https://sklep.token-polska.pl/" target="_blank">
+        <a href="https://uniortools.com/pol/" target="_blank">
           <img
             class="brand__pic"
-            src="@/assets/img/Logo-biketools-blue-1.png/"
+            src="@/assets/img/unior.png/"
             loading="lazy"
           />
         </a>
-        <a href="https://sklep.token-polska.pl/" target="_blank">
+        <a href="https://www.garbaruk.com/pl_PL/" target="_blank">
+          <img
+            class="brand__pic"
+            src="@/assets/img/garbaruk.png/"
+            loading="lazy"
+          />
+        </a>
+        <a href="https://www.momum.cc/en/" target="_blank">
           <img
             class="brand__pic"
             src="@/assets/img/momum.png/"
@@ -21,30 +31,21 @@
         </a>
       </div>
       <div class="brand__cube-2">
-        <a href="https://sklep.token-polska.pl/" target="_blank">
+        <a href="https://jagwire.com/" target="_blank">
           <img
             class="brand__pic"
-            src="@/assets/img/Token.jpeg/"
+            src="@/assets/img/jagwire.png/"
             loading="lazy"
           />
         </a>
         <a href="https://sklep.token-polska.pl/" target="_blank">
           <img
             class="brand__pic"
-            src="@/assets/img/jagwire.jpeg/"
+            src="@/assets/img/token.png/"
             loading="lazy"
           />
         </a>
-      </div>
-      <div class="brand__cube-3">
-        <a href="https://sklep.token-polska.pl/" target="_blank">
-          <img
-            class="brand__pic"
-            src="@/assets/img/Garbaruk.jpeg/"
-            loading="lazy"
-          />
-        </a>
-        <a href="https://sklep.token-polska.pl/" target="_blank">
+        <a href="https://www.sram.com/en/sram/" target="_blank">
           <img class="brand__pic" src="@/assets/img/sram.png/" loading="lazy" />
         </a>
       </div>
@@ -64,15 +65,16 @@ export default {
   height: 100vh;
   justify-content: center;
 }
+.brand__title {
+  padding-bottom: 80px;
+}
 .brand__cube-1,
-.brand__cube-2,
-.brand__cube-3 {
+.brand__cube-2 {
   display: flex;
+  align-items: center;
   flex-direction: row;
   justify-content: space-evenly;
   width: 100%;
-}
-.brand__pic {
-  max-height: 150px;
+  height: 25%;
 }
 </style>
