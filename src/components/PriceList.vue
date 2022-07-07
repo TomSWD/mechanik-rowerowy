@@ -75,9 +75,17 @@ export default {
   color: #000;
   opacity: 1;
 }
+@media (max-width: 1240px) {
+  .price__left,
+  .price__right {
+    height: auto;
+    padding-top: 15%;
+  }
+}
 @media (max-width: 975px) {
   .price__container {
     flex-direction: column;
+    padding-top: 5%;
   }
   .price__left,
   .price__right {
@@ -100,6 +108,7 @@ export default {
 @media (max-width: 465px) {
   .price__btn {
     margin: 30px auto 40px;
+    font-size: 22px;
   }
 }
 </style>

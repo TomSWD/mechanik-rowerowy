@@ -84,7 +84,7 @@ export default {
   width: 70px;
 }
 .footer__cr {
-  font-size: 10px;
+  font-size: 11px;
 }
 .footer__social {
   display: flex;
@@ -97,6 +97,11 @@ export default {
 @media (max-width: 975px) {
   .footer__container {
     margin-top: 60px;
+  }
+}
+@media (max-width: 553px) {
+  .footer__cr {
+    font-size: 9px;
   }
 }
 </style>

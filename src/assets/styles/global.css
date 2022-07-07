@@ -45,6 +45,10 @@ body {
       font-size: 48px;
       line-height: 65px;
     }
+    h5{
+      font-size: 15px;
+      line-height: 25px;
+    }
   }
   @media (max-width: 465px){
     h3{
@@ -52,8 +56,8 @@ body {
       line-height: 60px;
     }
     h5{
-      font-size: 15px;
-      line-height: 25px;
+      font-size: 13px;
+      line-height: 20px;
     }
   }
   /* @media (min-width:480px){

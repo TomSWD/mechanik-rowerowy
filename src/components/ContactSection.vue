@@ -69,7 +69,7 @@ export default {
   margin-right: auto;
 }
 .contact__logo {
-  width: 80%;
+  width: 70%;
   margin-right: auto;
   padding: 0px 0px 20px 0px;
 }
@@ -79,7 +79,9 @@ export default {
 }
 @media (max-width: 1240px) {
   .contact__container {
-    margin-top: 40px;
+    height: auto;
+    padding-top: 12%;
+    padding-bottom: 10%;
   }
   .contact__left,
   .contact__right {
@@ -114,7 +116,8 @@ export default {
     padding-top: 40px;
   }
   .contact__logo {
-    display: none;
+    width: 100%;
+    padding-bottom: 10%;
   }
 }
 @media (max-width: 465px) {
