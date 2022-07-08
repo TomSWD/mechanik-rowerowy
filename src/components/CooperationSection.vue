@@ -7,7 +7,6 @@
           <h5>
             - Obsługa serwisowa imprez <br />
             - Wyjazdy jako samochód serwisowy <br />
-            - Mechanik na godziny u Ciebie w serwisie
           </h5>
         </div>
         <div class="cooperation__txt-right">

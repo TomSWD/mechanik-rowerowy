@@ -8,27 +8,83 @@
           loading="lazy"
         />
         <div class="contact__txt">
-          <h5 class="phone">
-            Telefon: <a href="tel:+48609595205">+48 609 595 205</a>
-          </h5>
-          <h5 class="email">
-            E-mail:
-            <a href="mailto:serwis@rowerowymechanik.pl"
-              >serwis@rowerowymechanik.pl</a
+          <a class="phone" href="tel:+48609595205"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="black"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-phone"
             >
-          </h5>
-          <h5 class="fb">
-            Facebook:
-            <a href="https://www.facebook.com/rowerowymechanik"
-              >facebook.com/rowerowymechanik</a
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+              ></path>
+            </svg>
+            +48 609 595 205</a
+          >
+          <a class="email" href="mailto:serwis@rowerowymechanik.pl">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="22"
+              height="22"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-send"
             >
-          </h5>
-          <h5 class="instagram">
-            Instagram:
-            <a href="https://www.instagram.com/mechanik_rowerowy/"
-              >instagram.com/mechanik_rowerowy</a
+              <line x1="22" y1="2" x2="11" y2="13"></line>
+              <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+            </svg>
+            serwis@rowerowymechanik.pl</a
+          >
+          <a class="facebook" href="https://www.facebook.com/rowerowymechanik">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="black"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-facebook"
             >
-          </h5>
+              <path
+                d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+              ></path>
+            </svg>
+            facebook.com/rowerowymechanik</a
+          >
+          <a
+            class="instagram"
+            href="https://www.instagram.com/mechanik_rowerowy/"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="white"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-instagram"
+            >
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+            instagram.com/mechanik_rowerowy</a
+          >
         </div>
       </div>
       <div class="contact__right">
@@ -67,6 +123,18 @@ export default {
   display: flex;
   flex-direction: column;
   margin-right: auto;
+  gap: 5px;
+}
+.phone,
+.email,
+.instagram,
+.facebook {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.ionicon {
+  width: 38px;
 }
 .contact__logo {
   width: 70%;

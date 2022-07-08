@@ -1,6 +1,9 @@
 <template>
   <div class="menu">
     <div class="menu__container container">
+      <a class="menu__logo" href="#">
+        <img src="@/assets/img/mechanik-logo.jpeg/" loading="lazy" />
+      </a>
       <a href="#">
         <svg
           class="nav__burger"
@@ -107,6 +110,13 @@ export default {
   align-items: center;
   box-shadow: 0px 4px 5px -5px rgba(250, 248, 248, 0.336);
 }
+.menu__logo {
+  width: 120px;
+}
+.menu__logo:hover {
+  width: 125px;
+  opacity: 1;
+}
 .nav__burger {
   display: none;
 }
@@ -114,6 +124,7 @@ export default {
   display: flex;
   width: 100%;
   justify-content: space-between;
+  padding-left: 8%;
 }
 .menu__link {
   padding: 10px 10px;
@@ -131,19 +142,24 @@ export default {
   align-items: center;
   justify-content: center;
   gap: 10px;
-  /* display: flex;
-  justify-content: space-between;
-  width: 75px; */
 }
 @media (max-width: 1240px) {
   .menu {
     position: static;
+  }
+  .menu__logo {
+    width: 90px;
+  }
+  .menu__logo:hover {
+    width: 95px;
+    opacity: 1;
   }
   .menu__links {
     display: none;
   }
   .nav__burger {
     display: block;
+    margin: 0 auto;
   }
 }
 </style>

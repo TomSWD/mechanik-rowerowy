@@ -4,7 +4,12 @@
       <a class="footer__logo" href="#">
         <img src="@/assets/img/mechanik-logo.jpeg/" loading="lazy" />
       </a>
-      <div class="footer__cr">© 2022 Endurophine</div>
+      <a
+        class="footer__cr"
+        href="https://swierad-portfolio.netlify.app"
+        target="_blank"
+        >© 2022 Endurophine</a
+      >
       <div class="footer__social">
         <a
           class="facebook-icon icon"
@@ -82,6 +87,10 @@ export default {
 }
 .footer__logo {
   width: 70px;
+}
+.footer__logo:hover {
+  width: 80px;
+  opacity: 1;
 }
 .footer__cr {
   font-size: 11px;

@@ -64,14 +64,15 @@ export default {
   background-color: #d94100;
   width: 330px;
   height: 70px;
-  font-size: 25px;
+  font-size: 22px;
   letter-spacing: 3px;
   border-radius: 25px;
   margin: 0 auto;
 }
 .price__btn:hover {
   transition: 0.8s;
-  background-color: #fff;
+  width: 80%;
+  background-color: #ab1b16;
   color: #000;
   opacity: 1;
 }

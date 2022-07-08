@@ -36,8 +36,7 @@ export default {
 .main__content {
   margin: auto;
 }
-.main__title,
-.main__txt {
+.main__title {
   text-transform: uppercase;
 }
 .main__txt {
