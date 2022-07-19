@@ -87,19 +87,8 @@ export default {
 .cooperation__txt-right {
   width: 50%;
 }
-/* .cooperation__logos {
-  margin-top: 8%;
-  height: 25%;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-} */
 .cooperation__cube-1,
 .cooperation__cube-2 {
-  /* display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  height: 10%; */
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -107,7 +96,7 @@ export default {
   justify-content: space-around;
   gap: 25px;
   width: 100%;
-  height: 25%;
+  height: 20%;
 }
 @media (max-width: 1240px) {
   .cooperation__container {

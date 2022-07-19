@@ -4,20 +4,33 @@
       <a class="menu__logo" href="#">
         <img src="@/assets/img/mechanik-logo.jpeg/" loading="lazy" />
       </a>
-      <a href="#">
-        <svg
-          class="nav__burger"
-          width="36"
-          height="26"
-          viewBox="0 0 36 26"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <rect width="36" height="2" fill="#fff" />
-          <rect y="12" width="36" height="2" fill="#fff" />
-          <rect y="24" width="36" height="2" fill="#fff" />
-        </svg>
-      </a>
+      <div class="menu__mobile">
+        <a class="nav__burger2" href="#">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+          <!-- <svg
+            class="nav__burger"
+            width="36"
+            height="26"
+            viewBox="0 0 36 26"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect width="36" height="2" fill="#fff" />
+            <rect y="12" width="36" height="2" fill="#fff" />
+            <rect y="24" width="36" height="2" fill="#fff" />
+          </svg> -->
+        </a>
+        <div class="mobile__links">
+          <a class="menu__link" href="#price">CENNIK</a>
+          <a class="menu__link" href="#cooperation">WSPÓŁPRACA</a>
+          <a class="menu__link" href="#brand">MOJE MARKI</a>
+          <a class="menu__link" href="#about">O MNIE</a>
+          <a class="menu__link" href="#contact">KONTAKT</a>
+          <a></a>
+        </div>
+      </div>
       <div class="menu__links">
         <a class="menu__link" href="#price">CENNIK</a>
         <a class="menu__link" href="#cooperation">WSPÓŁPRACA</a>
@@ -114,11 +127,24 @@ export default {
   width: 120px;
 }
 .menu__logo:hover {
-  width: 125px;
-  opacity: 1;
+  opacity: 0.7;
+  transition: 0.2s;
+  transform: scale(1.1);
 }
-.nav__burger {
+.nav__burger,
+.menu__mobile {
   display: none;
+}
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 2px;
+  background-color: #fff;
+  margin: 6px 0px;
+}
+.bar2:hover {
+  opacity: 0;
 }
 .menu__links {
   display: flex;
@@ -135,7 +161,7 @@ export default {
   background-color: #fff;
   color: #000;
   opacity: 1;
-  transition: 0.8s;
+  transform: scale(1.1);
 }
 .menu__social {
   display: flex;
@@ -144,22 +170,46 @@ export default {
   gap: 10px;
 }
 @media (max-width: 1240px) {
-  .menu {
+  /* .menu {
     position: static;
-  }
+  } */
   .menu__logo {
-    width: 90px;
+    width: 80px;
   }
   .menu__logo:hover {
-    width: 95px;
     opacity: 1;
+    transform: scale(1.1);
+  }
+  .mobile__links {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 50%;
+    top: 70px;
+    left: 0;
+    padding-left: 35px;
+    background-color: #000;
+  }
+  .menu__link {
+    background-color: #000;
+    border-radius: 0px;
+  }
+  .menu__link:hover {
+    background-color: #000;
+    color: #fff;
+    transform: translateX(25px);
   }
   .menu__links {
     display: none;
   }
-  .nav__burger {
+  .nav__burger,
+  .menu__mobile {
     display: block;
     margin: 0 auto;
+  }
+  .nav__burger:hover {
+    transform: rotate(+45deg);
+    transition: 0.7s;
   }
 }
 </style>

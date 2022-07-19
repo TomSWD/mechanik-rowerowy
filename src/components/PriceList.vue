@@ -98,6 +98,9 @@ export default {
     width: 100%;
     margin: 40px auto 50px;
   }
+  .price__btn:hover {
+    width: 100%;
+  }
   .price__pic {
     display: none;
   }

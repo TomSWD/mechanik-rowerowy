@@ -4,7 +4,6 @@
       <h5 class="brand__title">
         Swój serwis opieram na sprawdzonych markach z najwyszej światowej półki:
       </h5>
-      <!-- <div class="brand__logos"> -->
       <div class="brand__cube-1">
         <a href="https://ebcbrakes.pl/pl" target="_blank">
           <img class="brand__pic" src="@/assets/img/ebc.png/" loading="lazy" />
@@ -50,7 +49,6 @@
           <img class="brand__pic" src="@/assets/img/sram.png/" loading="lazy" />
         </a>
       </div>
-      <!-- </div> -->
     </div>
   </div>
 </template>
@@ -70,9 +68,6 @@ export default {
 .brand__title {
   padding-bottom: 10%;
 }
-/* .brand__logos {
-  display: flex;
-} */
 .brand__cube-1,
 .brand__cube-2 {
   display: flex;
@@ -82,7 +77,7 @@ export default {
   justify-content: space-around;
   gap: 25px;
   width: 100%;
-  height: 25%;
+  height: 20%;
 }
 @media (max-width: 1240px) {
   .brand__container {

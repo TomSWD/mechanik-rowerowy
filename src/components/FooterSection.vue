@@ -89,8 +89,9 @@ export default {
   width: 70px;
 }
 .footer__logo:hover {
-  width: 80px;
   opacity: 1;
+  transition: 0.8s;
+  transform: scale(1.1);
 }
 .footer__cr {
   font-size: 11px;
